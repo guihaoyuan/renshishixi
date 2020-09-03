@@ -8,9 +8,9 @@ public class PageResult {
 	//一页有多少条数据
 	private Integer pageCount;
 	//总共有多少条数据
-	private Integer totalCounts;
+	private Long totalCounts;
 	//总共有多少页
-	private Integer totalPage;
+	private Long totalPage;
 	//当前这一页有哪些数据
 	private List<?> data;
 	
@@ -26,16 +26,16 @@ public class PageResult {
 	public void setPageCount(Integer pageCount) {
 		this.pageCount = pageCount;
 	}
-	public Integer getTotalCounts() {
+	public Long getTotalCounts() {
 		return totalCounts;
 	}
-	public void setTotalCounts(Integer totalCounts) {
+	public void setTotalCounts(Long totalCounts) {
 		this.totalCounts = totalCounts;
 	}
-	public Integer getTotalPage() {
+	public Long getTotalPage() {
 		return totalPage;
 	}
-	public void setTotalPage(Integer totalPage) {
+	public void setTotalPage(Long totalPage) {
 		this.totalPage = totalPage;
 	}
 	public List<?> getData() {
